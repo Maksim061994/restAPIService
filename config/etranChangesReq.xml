@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="SysEtranInt" xmlns:types="http://tempuri.org/encodedTypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+    <q1:GetBlock xmlns:q1="urn:SysEtranInt">
+      <Login xsi:type="xsd:string">Smsk_gp</Login>
+      <Password xsi:type="xsd:string">Smskgp19</Password>
+      <Text xsi:type="xsd:string">&lt;claimToAgreementStatusSMART&gt;&lt;fromDate value=&quot;04.07.2019 12:00:00&quot;/&gt;&lt;toDate value=&quot;05.07.2019 18:00:00&quot;/&gt;&lt;/claimToAgreementStatusSMART&gt;</Text>
+    </q1:GetBlock>
+  </soap:Body>
+</soap:Envelope>
