@@ -18,10 +18,10 @@ func main() {
 	flag.Parse()
 
 	// config - current config
-	var config = common.ReadDataFromJSON(*pathToConfig)
+	config := common.ReadDataFromJSON(*pathToConfig)
 
 	// etranBodyQuery - xml запрос для поиска изменений в заявках ЭТРАН
-	var etranBodyQuery = etran.GetQueryXML(config.PathToSoap)
+	etranBodyQuery := etran.GetQueryXML(config.PathToSoap)
 
 	// maskFromDate, maskToDate - маски шаблонов для regex
 	var maskFromDate string = config.FromDate
