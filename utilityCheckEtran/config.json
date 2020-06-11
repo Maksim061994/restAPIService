@@ -1,6 +1,6 @@
 {
-    "pathToSoap": ".\\soapReq\\etranChangesReq.xml",
-    "urlEtran": "http://10.248.35.16:8092/AppServer/IEtranSysservice",
+    "pathToSoap": "{PATH_TO_SOAP}",
+    "urlEtran": "{URL}",
     "fromDate": "fromDate",
     "toDate": "toDate",
     "patternFind": "915479421"
